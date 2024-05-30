@@ -4,4 +4,4 @@ var callAddFont = function () {
 this.addFileToVFS('Arial_Bold-normal.ttf', font);
 this.addFont('Arial_Bold-normal.ttf', 'Arial_Bold', 'normal');
 };
-jsPDF.API.events.push(['addFonts', callAddFont])
+jspdf.jsPDF.API.events.push(['addFonts', callAddFont])
