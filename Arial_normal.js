@@ -6,7 +6,7 @@
   this.addFileToVFS('Arial-normal.ttf', arial_normal);
   this.addFont('Arial-normal.ttf', 'Arial', 'normal');
   this.addFileToVFS('Arial_Bold-bold.ttf', arial_bold);
-  this.addFont('Arial_Bold-bold.ttf', 'Arial_Bold', 'bold');
+  this.addFont('Arial_Bold-bold.ttf', 'Arial', 'bold', '700');
   };
   jspdf.jsPDF.API.events.push(['addFonts', callAddFont])
 })();
